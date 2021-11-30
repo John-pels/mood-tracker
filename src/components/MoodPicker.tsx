@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react';
 import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
-import { theme } from '../../theme';
-import { MoodOptionType } from '../../types';
-const imageSrc = require('../../../assets/butterflies.png');
+import { theme } from '../theme';
+import { MoodOptionType } from '../types';
+const imageSrc = require('../../assets/butterflies.png');
 
 const moodOptions: MoodOptionType[] = [
   { emoji: '🧑‍💻', description: 'studious' },

@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import format from 'date-fns/format';
-import { moodOptionWithTimestamp } from '../../types';
-import { theme } from '../../theme';
+import { moodOptionWithTimestamp } from '../types';
+import { theme } from '../theme';
 
 type MoodItemRowProps = {
   item: moodOptionWithTimestamp;
